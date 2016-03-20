@@ -11,6 +11,7 @@ Sitri talks via HTTP requests to a Web API which provides it with information. I
 The Web API I used in StSv is not open source as of the time of writing this README file. *You will need to create your own database schema & Web API for this to work.*
 
 I have created some specification files to describe what Sitri expects from a Web API - they are in the "webapi-spec" folder of this repository.
+I also recommend that you read the [NOTES.spec](spec/NOTES.spec) file, as well as reading the API pages specifications. This will help you setup a valid API endpoint for Sitri to work.
 
 The Web API should never be exposed publicly or bound to a public IP address. It should only ever be accessible by the servers that should need access to it.
 
