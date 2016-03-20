@@ -13,16 +13,11 @@ Argument "steamid":
 # Output 
 - Format: JSON
 
-JSON array of object: 
-{ 
-	"ProductId":<int>, 
-	"Class":<short> 
-}
-
 Notes: Class is zerobased. ie 0=Scout, 1=Soldier, 2=Pyro, 3=DemoMan, 4=Heavy, 5=Engineer, 6=Medic, 7=Sniper, 8=Spy
 
 Example: 
-{
+```json
+[
 	{
 		"ProductId": 123,		
 		"Class": 3
@@ -31,4 +26,5 @@ Example:
 		"SkinId": 456,
 		"Class": 0
 	}
-}
+]
+```

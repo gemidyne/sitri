@@ -12,34 +12,18 @@ Argument "port":
 # Output 
 - Format: JSON
 
-JSON object containing array of objects:
-"SoundMods"
-{
-	{
-		"ProductId":<int>, 
-		"Modifications":<array>
-		{
-			{
-				"OriginalFile": <string>,
-				"ReplacementFile": <string>
-			}
-		}
-	}
-}
-
 Notes: 
 	The OriginalFile and ReplacementFile are the full path to the sound file, relative to the tf/sounds folder.
 	The ReplacementFile is precached and added to the downloads table automatically.
 	The modification will only be valid as long as ReplacementFile is set to a value and not empty.
 
 Example: 
-
-"SoundMods"
-{
+```json
+"SoundMods":[
 	{ 
 		"ProductId":123, 
 		"Modifications":
-		{
+		[
 			{
 				"OriginalFile": "vo/scout_medic01.wav",
 				"ReplacementFile": "steven/dxd/xenovia/hello.wav"
@@ -64,12 +48,12 @@ Example:
 				"OriginalFile": "vo/scout_help03.wav",
 				"ReplacementFile": "steven/dxd/xenovia/issei3.wav"
 			},
-		} 
+		]
 	},
 	{ 
 		"ProductId":456, 
 		"Modifications":
-		{
+		[
 			{
 				"OriginalFile": "vo/soldier_spy01.wav",
 				"ReplacementFile": "steven/dxd/rias/spy1.wav"
@@ -94,6 +78,7 @@ Example:
 				"OriginalFile": "vo/soldier_help03.wav",
 				"ReplacementFile": "steven/dxd/rias/medic.wav"
 			},
-		} 
+		]
 	},
-}
+]
+```
