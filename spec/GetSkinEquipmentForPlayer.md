@@ -6,9 +6,9 @@ Provided a valid STEAM ID, will return the equipment information of skins for a 
 Query String parameters
 
 - Argument "steamid":
-	Must be a string. 
-	Must be a STEAM2 ID in the format of STEAM_0:X:XXXXXX 
-	Cannot be empty.
+- - Must be a string. 
+- - Must be a STEAM2 ID in the format of STEAM_0:X:XXXXXX 
+- - Cannot be empty.
 
 # Output 
 Format: JSON

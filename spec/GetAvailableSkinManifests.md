@@ -6,8 +6,8 @@ Provided a server port number, will return all available skin manifests for the 
 Query String parameters
 
 - Argument "port":
-	Must be an Int32. 
-	Cannot be empty.
+- - Must be an Int32. 
+- - Cannot be empty.
 
 # Output 
 Format: JSON
