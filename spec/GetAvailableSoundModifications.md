@@ -3,19 +3,19 @@
 Provided a server port number, will return all available sound modifications for the server.
 
 # Input 
-- Query String parameters
+Query String parameters
 
-Argument "port":
+- Argument "port":
 	Must be an Int32. 
 	Cannot be empty.
 
 # Output 
-- Format: JSON
+Format: JSON
 
 Notes: 
-	The OriginalFile and ReplacementFile are the full path to the sound file, relative to the tf/sounds folder.
-	The ReplacementFile is precached and added to the downloads table automatically.
-	The modification will only be valid as long as ReplacementFile is set to a value and not empty.
+- The OriginalFile and ReplacementFile are the full path to the sound file, relative to the tf/sounds folder.
+- The ReplacementFile is precached and added to the downloads table automatically.
+- The modification will only be valid as long as ReplacementFile is set to a value and not empty.
 
 Example: 
 ```json

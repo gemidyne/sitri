@@ -3,20 +3,20 @@
 Provided a server port number, will return all available skin manifests for the server.
 
 # Input 
-- Query String parameters
+Query String parameters
 
-Argument "port":
+- Argument "port":
 	Must be an Int32. 
 	Cannot be empty.
 
 # Output 
-- Format: JSON
+Format: JSON
 
 Notes: 
-	The strings in the Files array must be the full path to the file, relative to the tf folder.
-	The FullModelPath is the full path to the .mdl file, relative to the tf folder.
-	The FullModelPath is precached on Map Start. The material files will be precached automatically by the engine.
-	The Files array are only added to the Downloads Table. 
+- The strings in the Files array must be the full path to the file, relative to the tf folder.
+- The FullModelPath is the full path to the .mdl file, relative to the tf folder.
+- The FullModelPath is precached on Map Start. The material files will be precached automatically by the engine.
+- The Files array are only added to the Downloads Table. 
 
 Example: 
 ```json
