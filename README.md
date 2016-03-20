@@ -14,7 +14,7 @@ I have created some specification files to describe what Sitri expects from a We
 
 The Web API should never be exposed publicly or bound to a public IP address. It should only ever be accessible by the servers that should need access to it.
 
-Once the Web API has been setup, you will need to edit the IWA_URL #define in [src/anarchysteven/sitri/InternalWebAPI.inc](src/anarchysteven/sitri/InternalWebAPI.inc). 
+Once the Web API has been setup, you will need to edit the IWA_URL #define in [src/anarchysteven/sitri/InternalWebAPI.inc](src/anarchysteven/sitri/InternalWebAPI.inc#L5). 
 Then, provided the data from the API is valid and correct, everything should just start working.
 
 ## Extensions required 
