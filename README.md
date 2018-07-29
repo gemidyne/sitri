@@ -35,4 +35,4 @@ Then, provided the data from the API is valid and correct, everything should jus
 ## License
 Licensed under the [GNU GPL License](LICENSE.md)
 
-MicroTF2 is a project by GEMINI Developments. Their homepage can be accessed at the following URL: https://gemini.software
+Sitri is a project by GEMINI Developments. Their homepage can be accessed at the following URL: https://gemini.software
